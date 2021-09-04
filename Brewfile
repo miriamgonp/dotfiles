@@ -6,80 +6,95 @@ tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 
 # Binaries
-brew 'awscli'
+#brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
-brew 'gh'
 brew 'git'
-brew 'gnupg'
-brew 'grep'
-brew 'httpie'
-brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'svn'
-brew 'trash' # Manage the Trash bin
-brew 'tree' # List directories in a tree structure
-brew 'zlib' # Needed for Memcached
+#brew 'gh'
+#brew 'gnupg'
+#brew 'grep'
+#brew 'httpie'
+#brew 'hub'
+#brew 'stripe/stripe-cli/stripe'
+#brew 'svn'
+#brew 'trash' # Manage the Trash bin
+#brew 'tree' # List directories in a tree structure
+#brew 'zlib' # Needed for Memcached
 
 # Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
+# brew 'jpegoptim'
+# brew 'optipng'
+# brew 'pngquant'
+# brew 'svgo'
+# brew 'gifsicle'
 
 # Development
 brew 'php'
 brew 'php@7.4'
-brew 'composer'
 brew 'imagemagick'
-brew 'libmemcached'
-brew 'meilisearch'
-brew 'memcached'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
 brew 'redis'
 brew 'yarn'
+# brew 'composer'
+# brew 'libmemcached'
+# brew 'meilisearch'
+# brew 'memcached'
+
 
 # Apps
 cask '1password'
-cask 'caffeine'
-cask 'dbngin'
 cask 'discord'
-cask 'docker'
 cask 'figma'
 cask 'firefox'
-cask 'github'
 cask 'google-chrome'
-cask 'google-drive'
-cask 'gpg-suite'
-cask 'imageoptim'
-cask 'insomnia'
-cask 'pastebot'
-cask 'phpmon'
-cask 'phpstorm'
-cask 'ray'
-cask 'screenflow'
-cask 'signal'
 cask 'slack'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
-cask 'tinkerwell'
-cask 'transmit'
-cask 'tunnelbear'
-cask 'tuple'
 cask 'visual-studio-code'
 cask 'zoom'
+cask 'cleanmymac'
+cask 'adobe-acrobat-pro'
+cask 'adobe-acrobat-reader'
+cask 'whatsapp'
+cask 'iterm2'
+cask 'notion'
+cask 'sizzy'
+cask 'recordit'
+cask 'vlc'
+cask 'loom'
+cask 'calibre'
+
+# cask 'caffeine'
+# cask 'dbngin'
+# cask 'docker'
+# cask 'github'
+# cask 'google-drive'
+# cask 'gpg-suite'
+# cask 'imageoptim'
+# cask 'insomnia'
+# cask 'pastebot'
+# cask 'phpmon'
+# cask 'phpstorm'
+# cask 'ray'
+# cask 'screenflow'
+# cask 'signal'
+# cask 'tinkerwell'
+# cask 'transmit'
+# cask 'tunnelbear'
+# cask 'tuple'
 
 # Quicklook
 cask 'qlmarkdown'
 cask 'quicklook-json'
+cask 'qlcolorcode'
+cask 'quicklook-csv'
 
 # Fonts
 cask 'font-lato'
@@ -98,4 +113,4 @@ mas 'Numbers', id: 409203825
 mas 'Spark', id: 1176895641
 mas 'Speedtest', id: 1153157709
 mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+mas 'Magnet', id: 441258766
