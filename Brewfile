@@ -21,9 +21,14 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 #brew 'hub'
 #brew 'stripe/stripe-cli/stripe'
 brew 'svn'
-#brew 'trash' # Manage the Trash bin
-#brew 'tree' # List directories in a tree structure
-#brew 'zlib' # Needed for Memcached
+brew 'trash' # Manage the Trash bin
+brew 'tree' # List directories in a tree structure
+brew 'zlib' # Needed for Memcached
+
+#Customize terminal
+brew 'romkatv/powerlevel10k/powerlevel10k'
+brew  'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
 
 # Spatie Medialibrary
 # brew 'jpegoptim'
@@ -65,7 +70,8 @@ cask 'adobe-acrobat-reader'
 cask 'whatsapp'
 cask 'iterm2'
 cask 'notion'
-cask 'sizzy'
+cask 'spotify'
+# cask 'sizzy'
 cask 'recordit'
 cask 'vlc'
 cask 'loom'
@@ -104,6 +110,7 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
+cask 'font-victor-mono'
 
 # Mac App Store
 mas 'Byword', id: 420212497
